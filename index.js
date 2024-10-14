@@ -202,7 +202,7 @@ console.log(example2);
 console.log(example3);
 console.log(example4);
 */
-
+/*
 let num1 = 1;
 num1 ++;
 num1 ++;
@@ -217,3 +217,18 @@ num1 += 5;
 num1 -= 10;
 num1 %= 2;
 console.log(num1);
+*/
+
+// control flow operators
+
+let example = 6;
+
+if (example == 6 && true === true){
+	console.log('Runs')
+}
+else if(example > 10){
+	console.log("This will not run");
+}
+else{
+	console.log("This will not run anyway")
+}
