@@ -220,7 +220,7 @@ console.log(num1);
 */
 
 // control flow operators
-
+/*
 let example = 6;
 
 if (example == 6 && true === true){
@@ -232,3 +232,10 @@ else if(example > 10){
 else{
 	console.log("This will not run anyway")
 }
+
+*/
+
+// console.log(10 === 10 && 5 < 4);
+
+// console.log(10 === 10 || 5 < 4);
+console.log((5 >= 5 || 4 > 4) && 3 + 2 === 5);
