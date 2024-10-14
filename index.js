@@ -82,4 +82,25 @@ console.log(typeof example4);
 // console.log(Boolean(example8));
 
 
-let example
+// let example = [1,4,2,6,7]
+//console.log(example[4]);
+
+//arrays functions
+// example.push(99);
+// console.log(example)
+// console.log(example.pop())
+// console.log(example);
+
+// example.forEach((element) => {
+// 	console.log(element);
+// })
+
+
+// console.log(`Length of array is ${example.length}`);
+
+// let i = 1;
+// example.forEach((x) => {
+// 	console.log(`No ${i} is ${x}`);
+// 	i = i+1;
+// });
+
