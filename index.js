@@ -151,3 +151,26 @@ console.log(student.cats[1])
 */
 
 
+let student = {
+	firstName :  "Sabin",
+	lastName :  "Bajracharya"
+};
+
+let student2 = student;
+
+student2.age = 38;
+
+console.log(student);
+
+let student3 = Object.assign({},student2);
+
+student3.email = "sabin@gmail.com";
+
+console.log(`Student is ${student.firstName} ${student.lastName} ${student.age} ${student.email}`)
+console.log(`Student2 is ${student2.firstName} ${student2.lastName} ${student2.age} ${student2.email}`)
+console.log(`Student3 is ${student3.firstName} ${student3.lastName} ${student3.age} ${student3.email}`)
+
+console.log(student)
+console.log(student2)
+console.log(student3)
+
