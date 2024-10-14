@@ -176,9 +176,20 @@ console.log(student3)
 
 */
 
-let num1 = 5 % 3;
+//let num1 = 5 % 3;
 
+let num1 = 15;
+let num2 = '15';
 
-console.log(num1);
+// > < >= <= == ===
+//difference between == and ===
+//console.log(num1 != num2);
+
+// == and ===
+console.log(typeof num1);
+console.log(typeof num2);
+
+console.log(num1 == num2);
+console.log(num1 === num2);
 
 
