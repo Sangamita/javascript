@@ -238,4 +238,22 @@ else{
 // console.log(10 === 10 && 5 < 4);
 
 // console.log(10 === 10 || 5 < 4);
-console.log((5 >= 5 || 4 > 4) && 3 + 2 === 5);
+// console.log((5 >= 5 || 4 > 4) && 3 + 2 === 5);
+
+
+//switch statement
+let studentAnswer = 'G';
+
+switch(studentAnswer) {
+	case 'A':
+		console.log("He selected A");
+		break;
+	case 'B':
+		console.log("He selected B");
+		break;
+	case 'C':
+		console.log("He selected C");
+		break;
+	default:
+		console.log("Please select correctly");
+}
