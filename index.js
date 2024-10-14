@@ -104,3 +104,50 @@ console.log(typeof example4);
 // 	i = i+1;
 // });
 
+// let a = ["Sabin", 38, "M", 79];
+// let b = a;
+
+// // console.log(a);
+// // console.log(b);
+
+// let c = [...a]
+// c.push("Engineer")
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+// let d = c.map(ele => {
+// 	return ele;
+// })
+
+// console.log(`D array is ${d}`);
+
+
+/*
+
+
+//objects
+let student = {
+	firstName: "Sabin",
+	lastName: "Bajracharya",
+	age: 38,
+	address: {
+		city: "Amsterdam",
+		state: "Netherlands"
+	},
+	cats : ['Milo', 'Giro']
+};
+
+console.log(student)
+console.log(student.firstName)
+console.log(student.lastName)
+console.log(student.age)
+console.log(student.address.city)
+console.log(student.address.state)
+
+console.log(Object.values(student))
+console.log(student.cats[1])
+*/
+
+
