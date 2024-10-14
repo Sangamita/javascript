@@ -149,7 +149,7 @@ console.log(student.address.state)
 console.log(Object.values(student))
 console.log(student.cats[1])
 */
-
+/*
 
 let student = {
 	firstName :  "Sabin",
@@ -173,4 +173,12 @@ console.log(`Student3 is ${student3.firstName} ${student3.lastName} ${student3.a
 console.log(student)
 console.log(student2)
 console.log(student3)
+
+*/
+
+let num1 = 5 % 3;
+
+
+console.log(num1);
+
 
