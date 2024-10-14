@@ -192,4 +192,14 @@ console.log(typeof num2);
 console.log(num1 == num2);
 console.log(num1 === num2);
 
+let example1 = 5 === 5;
+let example2 = 5 == '5';
+let example3 = 6 != '6';
+let example4 = 7 !== '7';
+
+console.log(example1);
+console.log(example2);
+console.log(example3);
+console.log(example4);
+
 
