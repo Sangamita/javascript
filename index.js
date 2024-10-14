@@ -240,7 +240,7 @@ else{
 // console.log(10 === 10 || 5 < 4);
 // console.log((5 >= 5 || 4 > 4) && 3 + 2 === 5);
 
-
+/*
 //switch statement
 let studentAnswer = 'G';
 
@@ -257,3 +257,28 @@ switch(studentAnswer) {
 	default:
 		console.log("Please select correctly");
 }
+*/
+
+
+//for loop
+let sum = 0;
+
+for (let i=0; i <10; i++)
+{
+	sum += i;
+}
+
+console.log(sum);
+
+
+let numArray = [10, 20, 30, 40, 50, 60, 70, 80];
+let total = 0;
+
+for (let i = 0; i < numArray.length; i++) {
+    console.log(numArray[i]);
+	total += numArray[i];
+}
+
+console.log(total)
+
+
