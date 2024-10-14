@@ -261,6 +261,7 @@ switch(studentAnswer) {
 
 
 //for loop
+/*
 let sum = 0;
 
 for (let i=0; i <10; i++)
@@ -281,4 +282,31 @@ for (let i = 0; i < numArray.length; i++) {
 
 console.log(total)
 
+*/
 
+//while and do while in javascript
+let i = 0;
+
+while (i<20){
+	i++;
+}
+
+console.log(i);
+
+i = 0;
+
+while(true)
+{
+	console.log(i);
+	i++;
+
+	if (i == 20) break;
+}
+
+do {
+
+	console.log(i);
+	i++;
+
+	if (i == 20) break;
+}while(i <= 25);
