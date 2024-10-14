@@ -177,7 +177,7 @@ console.log(student3)
 */
 
 //let num1 = 5 % 3;
-
+/*
 let num1 = 15;
 let num2 = '15';
 
@@ -201,5 +201,19 @@ console.log(example1);
 console.log(example2);
 console.log(example3);
 console.log(example4);
+*/
+
+let num1 = 1;
+num1 ++;
+num1 ++;
+num1 ++;
+
+console.log(num1);
+num1--;
+console.log(num1);
 
 
+num1 += 5;
+num1 -= 10;
+num1 %= 2;
+console.log(num1);
