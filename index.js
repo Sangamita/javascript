@@ -285,6 +285,7 @@ console.log(total)
 */
 
 //while and do while in javascript
+/*
 let i = 0;
 
 while (i<20){
@@ -310,3 +311,16 @@ do {
 
 	if (i == 20) break;
 }while(i <= 25);
+*/
+
+//function in javascript
+
+function add(num1, num2) {
+	console.log('Addition done::');
+	return num1 + num2;
+}
+
+let a = add(1,2);
+let b = add(2,3);
+console.log(add(7,5));
+
